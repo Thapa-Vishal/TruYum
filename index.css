@@ -1,0 +1,146 @@
+div {
+  padding: 1px;
+}
+#head-container {
+  background-color: darkblue;
+}
+#head-container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  padding: 10px 8px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: darkmagenta;
+}
+.flex-container {
+  display: flex;
+}
+.flex-container > div {
+  height: 100%;
+  width: 50%;
+  background-color: aliceblue;
+  text-align: center;
+}
+
+#result {
+  font-size: 20px;
+  color: red;
+}
+.footer {
+  height: 10%;
+  width: 100%;
+  background-color: gray;
+}
+.footer > footer > h3 {
+  padding-left: 20px;
+}
+
+.container {
+  height: 80%;
+  width: 100%;
+}
+.Login {
+  text-align: center;
+  width: 100%;
+  height: 50%;
+  top: 25%;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 10px;
+}
+.Login > form > div {
+  text-align: center;
+  width: 100%;
+  height: 50%;
+  top: 25%;
+  margin: 10px;
+  position: relative;
+}
+.Login > form > div > input[type="text"] input[type="password"] {
+  width: 100%;
+  margin: 10px;
+  padding: 8px;
+}
+.Login > form > div > input[type="button"] {
+  background-color: greenyellow;
+  color: black;
+  padding: 5px;
+  text-align: center;
+}
+.item-result {
+  text-align: left;
+  height: 80%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.item-result > table {
+  table-layout: auto;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15px;
+}
+.edit > h1 {
+  text-align: left;
+  padding-left: 20px;
+}
+.other-details {
+  display: flex;
+  padding: 20px;
+}
+.name {
+  padding: 20px;
+}
+.other-details > div {
+  height: 100%;
+  width: 25%;
+}
+#submit {
+  padding: 20px;
+}
+#submit > button {
+  background-color: rgb(5, 52, 182);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}
+#item-table tr:nth-child(even) {
+  background-color: rgb(223, 222, 222);
+}
+#item-table tr:nth-child(odd) {
+  background-color: rgb(247, 245, 245);
+}
+#item-table th {
+  font-size: 20px;
+  background-color: rgb(124, 124, 124);
+}
+.cartTable {
+  width: 100%;
+}
+.cartTable thead {
+  background-color: rgb(124, 124, 124);
+}
+.cartTable tbody tr :nth-child(even) {
+  background-color: rgb(223, 222, 222);
+}
+.cartTable tbody tr :nth-child(odd) {
+  background-color: rgb(247, 245, 245);
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Edit-Window</title>
+    <link rel="stylesheet" href="index.css" />
+    <script type="text/javascript" src="js/edit-menu.js"></script>
+  </head>
+  <body>
+    <header>
+      <div id="head-container">
+        <ul>
+          <li>
+            <a href="#home" style="text-align: left;"><b>truYum</b> </a>
+          </li>
+          <li>
+            <a href="menu-item-list-admin.html" style="text-align: left;"
+              ><b>Menu</b>
+            </a>
+          </li>
+          <li style="float: right;">
+            <a href="js/admin-logout.js" style="text-align: left;"
+              ><b>truYum</b>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <div class="edit">
+      <h1>Edit Main Menu Item</h1>
+      <form id="form1">
+        <div class="name">
+          <label for="name"><b>Name</b></label
+          ><br />
+          <input type="text" name="name" id="iname" size="100%" />
+        </div>
+        <div class="other-details">
+          <div id="price">
+            <label for="price"><b>Price</b></label
+            ><br />
+            <input type="text" name="price" id="iprice" />
+          </div>
+          <div id="active">
+            <label for="action"><b>Active</b></label
+            ><br />
+            <input type="radio" name="iactive" value="Yes" />Yes
+            <input type="radio" name="iactive" value="No" /> No
+          </div>
+          <div id="dol">
+            <label for="launch"><b>Date of Launch</b></label
+            ><br />
+            <input type="text" name="date" id="idate" />
+          </div>
+          <div id="category">
+            <label for="category"><b>Category</b></label
+            ><br />
+            <select name="foodCategory" id="fcategory">
+              <option value="Main Course">Main Course</option>
+              <option value="Starter">Starter</option>
+              <option value="Dessert">Dessert</option>
+              <option value="Drinks">Drinks</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="submit">
+          <button type="submit" onclick="itemEdit()"><b>Save</b></button>
+        </div>
+      </form>
+      <div id="result" style="color: blue;"></div>
+    </div>
+    <div class="footer">
+      <footer>
+        <h3>Copyright@2019</h3>
+      </footer>
+    </div>
+  </body>
+</html>
