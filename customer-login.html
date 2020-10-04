@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="index.css" />
+    <script type="text/javascript" src="js/login.js"></script>
+    <title>Customer Login</title>
+  </head>
+  <body>
+    <header>
+      <div id="head-container">
+        <ul>
+          <li>
+            <a href="index.html" style="text-align: left; font-size: 25px;"
+              ><b>truYum</b>
+            </a>
+          </li>
+          <li style="float: right;">
+            <a href="index.html" style="text-align: right; font-size: 25px;"
+              >Main</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <div class="container">
+      <div class="Login">
+        <h2>Customer Login</h2>
+        <form id="customerLoginForm">
+          <div class="customerId">
+            <label for="customerId">Customer Id</label><br />
+            <input
+              type="text"
+              id="customerId"
+              name="customerid"
+              placeholder="Enter Id"
+            />
+          </div>
+          <div class="customerPass">
+            <label for="customerPass">Customer Password</label><br />
+            <input
+              type="password"
+              id="customerPass"
+              name="customerPassword"
+              placeholder="Enter Password"
+            />
+          </div>
+          <div class="submit">
+            <input type="button" value="Login" onclick="customerLogin()" />
+          </div>
+        </form>
+        <div id="result"></div>
+      </div>
+    </div>
+    <div class="footer">
+      <footer>
+        <h3>Copyright@2019</h3>
+      </footer>
+    </div>
+  </body>
+</html>
